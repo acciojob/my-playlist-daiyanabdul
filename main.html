@@ -4,9 +4,99 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+				background-color: rgb(204, 204, 204);
+		}
+		ul{
+			
+			background-color: rgb(255, 255, 255);
+			padding:10px;
+			border-radius:10px;
+			border-width:1px;
+			border-color:black;
+			border-top-style:solid;
+			border-bottom-style:solid;
+			border-left-style:solid;
+			border-right-style:solid;
+		}
+		li{
+			list-style-type:none;
+		}
+		a{
+			text-decoration-line:none;
+			
+		}
+
+		.player_one{
+			background-color: rgb(255, 255, 255);
+			padding:10px;
+			border-radius:10px;
+			width:97%;
+		}
+		.player_two{
+			background-color: rgb(255, 255, 255);
+			padding:10px;
+			border-radius:10px;
+			width:97%;
+		}
+
+		div{
+			background-color: rgb(255, 255, 255);
+			padding:10px;
+			border-radius:10px;
+			border-width:1px;
+			border-color:black;
+			border-top-style:solid;
+			border-bottom-style:solid;
+			border-left-style:solid;
+			border-right-style:solid;
+	
+			
+		}
+
+
+	</style>
 </head>
 
 <body>
+	<h1 style="text-align:center;">My Playlist</h1>
+	<ul>
+		<li><a href="https://www.example.com/song1" target="_blank">Song 1</a></li>
+        <li><a href="https://www.example.com/song2" target="_blank">Song 2</a></li>
+        <li><a href="https://www.example.com/song3" target="_blank">Song 3</a></li>
+        <li><a href="https://www.example.com/song4" target="_blank">Song 4</a></li>
+        <li><a href="https://www.example.com/song5" target="_blank">Song 5</a></li>
+	</ul>
+
+	<h2 style="text-align:center;">Now Playing...</h2>
+<div>
+
+	<video controls class="player_one">
+		<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+	</video>
+
+	<h3 style="text-align:center;">MP3 songs</h3>
+	
+	<audio controls class="player_two">
+		<source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3">
+	</audio>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
